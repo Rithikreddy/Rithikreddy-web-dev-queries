@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe Game!</title>
+    <link rel="stylesheet" href="game_DOM_model.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="Container">
+      <!-- Be careful with the spelling of jumbotron all are small letters! -->
+      <div class="jumbotron">
+        <h1 id="first" >Welcome to Tic Tac Toe Game!</h1>
+        <p id="second">Are you ready to accept the challenge ?</p>
+        <button id='b' type="button" class="btn btn-primary btn-lg" name="button">Restart!</button>
+      </div>
+      <!-- Creating a table outside the jumbotron class -->
+      <table align="center">
+        <tr>
+          <td>X</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <!-- Linking the script at the end of the body -->
+    <script src="game_DOM_model.js"></script>
+  </body>
+</html>

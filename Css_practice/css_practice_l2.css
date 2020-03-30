@@ -1,0 +1,20 @@
+#top{
+  text-align: center;
+  /* top right bottom left */
+  border: 4px solid blue;
+  /* margin gap between border and outside */
+  margin: auto;
+  /* width here is width of the border */
+  width: 25%;
+  /* padding is the gap between text/content and the border */
+  /* for padding if a single value is given then it considers as all sides are equal */
+  padding: 100px;
+  font:Arial;
+  font-style:italic;
+  font-size: 50px;
+  font-weight: 100;
+  color: blue;
+}
+#bottom{
+  text-align: center;
+}

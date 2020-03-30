@@ -1,0 +1,25 @@
+body{
+  color: #FDFFFC;
+  background-color: #011627;
+  border: 40px solid #2EC486;
+  border-top: 0px;
+  text-align: center;
+  margin: 0px;        /* to remove the last small gap at corners */
+}
+p
+{
+    padding-left:20%;
+    padding-right:20%;
+    padding-top: 5%;
+}
+form{
+  font-size: 20px;   /* em is relative to the body size */
+}
+#sub{             /* # has to be used if called by id */
+  height:100px;
+  width: 200px;
+  margin: 4px;
+  margin-top: 10px;
+  background-color: #FF9F1C;
+  font-size: 1.5em;
+}
