@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Entered the users </h1>
+    <h2>Below is the list of the users</h2>
+    <!-- The below is like the if condition in the python -->
+
+    {% if user_key %}
+    <ol>
+      {% for p in user_key %}
+      <li>User Information</li>
+    <ul>
+      <li>First_name: {{p.first_name}} </li>
+      <li>Last_name: {{p.last_name}} </li>
+      <li>email: {{p.email}} </li>
+    </ul>
+    {% endfor %}
+    </ol>
+    {% endif %}
+  </body>
+</html>
